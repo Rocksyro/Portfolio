@@ -20,7 +20,7 @@ export default function Navbar() {
                     <button
                         onClick={toggleMenu}
                         aria-label="Toggle menu"
-                        className="p-1 rounded hover:bg-gray-100 transition-colors"
+                        className="p-1 rounded hover:bg-gray-100 hover:text-emerald-500 transition-colors"
                     >
                         {isMenuOpen ? <IoMdClose size={24} /> : <RxHamburgerMenu size={24} />}
                     </button>
