@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+span{
+    padding:4px;
+    margin:4px;
+    border:1px solid #ccc;
+    border-radius:4px;
+    background-color: #e8e8e8;
+    color:#807f7f;
+}
